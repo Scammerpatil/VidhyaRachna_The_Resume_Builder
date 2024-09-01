@@ -9,4 +9,34 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Login</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.novacop.vidhyarachna.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SignUp</display-name>
+    <servlet-name>SignUp</servlet-name>
+    <servlet-class>com.novacop.vidhyarachna.SignUp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignUp</servlet-name>
+    <url-pattern>/SignUp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserDashboardMapping</display-name>
+    <servlet-name>UserDashboardMapping</servlet-name>
+    <servlet-class>com.novacop.helper.UserDashboardMapping</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserDashboardMapping</servlet-name>
+    <url-pattern>/userdashboard</url-pattern>
+  </servlet-mapping>
 </web-app>
